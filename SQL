@@ -1,0 +1,76 @@
+-- User table for regular users and sellers
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY,
+    Username VARCHAR(255) NOT NULL,
+    Password VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+);
+
+-- Product table for seller's products
+CREATE TABLE Products (
+    ProductId INT PRIMARY KEY,
+    SellerId INT,
+    Name VARCHAR(255) NOT NULL,
+    Description TEXT,
+    Price DECIMAL(10, 2),
+    FOREIGN KEY (SellerId) REFERENCES Users(UserId)
+);
+
+-- Service Provider table for service providers
+CREATE TABLE ServiceProviders (
+    ProviderId INT PRIMARY KEY,
+    ServiceName VARCHAR(255) NOT NULL,
+    Availability TEXT,
+    FOREIGN KEY (ProviderId) REFERENCES Users(UserId)
+);
+
+-- Skill Owner table for individuals with skills
+CREATE TABLE SkillOwners (
+    SkillOwnerId INT PRIMARY KEY,
+    FOREIGN KEY (SkillOwnerId) REFERENCES Users(UserId)
+);
+
+-- Skills table for individual skills
+CREATE TABLE Skills (
+    SkillId INT PRIMARY KEY,
+    SkillOwnerId INT,
+    Name VARCHAR(255) NOT NULL,
+    Description TEXT,
+    FOREIGN KEY (SkillOwnerId) REFERENCES SkillOwners(SkillOwnerId)
+);
+
+-- Product-Seller relationship table
+CREATE TABLE ProductSellers (
+    ProductId INT,
+    SellerId INT,
+    PRIMARY KEY (ProductId, SellerId),
+    FOREIGN KEY (ProductId) REFERENCES Products(ProductId),
+    FOREIGN KEY (SellerId) REFERENCES Users(UserId)
+);
+
+-- Request table for user requests
+CREATE TABLE Requests (
+    RequestId INT PRIMARY KEY,
+    UserId INT,
+    SkillOwnerId INT,
+    Status VARCHAR(50) NOT NULL,
+    FOREIGN KEY (UserId) REFERENCES Users(UserId),
+    FOREIGN KEY (SkillOwnerId) REFERENCES SkillOwners(SkillOwnerId)
+);
+
+-- TimeSlot table for availability slots
+CREATE TABLE TimeSlots (
+    StartTime DATETIME,
+    EndTime DATETIME,
+    PRIMARY KEY (StartTime, EndTime)
+);
+
+-- Schedule table for service provider schedules
+CREATE TABLE Schedules (
+    ProviderId INT,
+    TimeSlotStartTime DATETIME,
+    TimeSlotEndTime DATETIME,
+    PRIMARY KEY (ProviderId, TimeSlotStartTime, TimeSlotEndTime),
+    FOREIGN KEY (ProviderId) REFERENCES ServiceProviders(ProviderId),
+    FOREIGN KEY (TimeSlotStartTime, TimeSlotEndTime) REFERENCES TimeSlots(StartTime, EndTime)
+);
