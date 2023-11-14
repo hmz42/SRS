@@ -40,7 +40,7 @@ Regular Users: Consumers seeking local products and services. They can create ac
 
 Sellers: Businesses or entities (e.g., supermarkets) that can create accounts to manage e-commerce functions and operate as a cashier system. The system allows seamless operation, even without an internet connection, with subsequent synchronization of updates upon reconnection.
 
-Service Providers: Entities like doctors or wedding halls that utilize a reservation system. They can create accounts, users can book available time slots, and the system prevents scheduling conflicts through real-time updates.
+Reservation System: Entities like doctors or wedding halls that utilize a reservation system. They can create accounts, users can book available time slots, and the system prevents scheduling conflicts through real-time updates.
 
 Skilled Individuals: Individuals with specific skills (e.g., electricians) who can create accounts showcasing their expertise. Regular users can send service requests, and skill owners can accept or reject requests, leading to further communication.
 
