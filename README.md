@@ -115,9 +115,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Users securely create accounts, log in, and manage profiles.
 - Authentication mechanisms implemented for security and privacy.
 
-#### 1.2 Dependencies
-- Dependent on a secure internet connection, .NET backend, and SQL Server database.
-
 #### 1.3 Assumptions and Preconditions
 - Assumes valid and secure credentials during registration.
 - Requires operational .NET backend and SQL Server database.
@@ -127,10 +124,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 #### 2.1 Description
 - Users search for products or services through the Angular frontend.
 - SQL Server database facilitates efficient retrieval of information.
-
-#### 2.2 Dependencies
-- Relies on availability and responsiveness of SQL Server database.
-- Angular frontend sends queries to .NET backend.
 
 #### 2.3 Assumptions and Preconditions
 - Assumes an updated and accurate product catalog.
@@ -142,9 +135,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Sellers create and manage accounts through Angular interfaces.
 - .NET backend and SQL Server database facilitate account management.
 
-#### 3.2 Dependencies
-- Dependent on .NET backend and SQL Server database.
-
 #### 3.3 Assumptions and Preconditions
 - Assumes accurate information during account creation.
 - Requires stable internet connection for real-time updates.
@@ -154,9 +144,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 #### 4.1 Description
 - Service providers create accounts with reservation systems.
 - .NET backend and SQL Server database manage reservations and prevent conflicts.
-
-#### 4.2 Dependencies
-- Dependent on .NET backend, Angular interfaces, and SQL Server database.
 
 #### 4.3 Assumptions and Preconditions
 - Assumes service providers maintain accurate availability information.
@@ -168,13 +155,13 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Individuals with skills create profiles using Angular interfaces.
 - .NET backend and SQL Server database manage skill profiles and facilitate communication.
 
-#### 5.2 Dependencies
-- Dependent on .NET backend, Angular interfaces, and SQL Server database.
-
 #### 5.3 Assumptions and Preconditions
 - Assumes accurate showcasing of skills in profiles.
 - Requires stable internet connection for real-time communication.
 
+### Dependencies
+- Dependent on .NET backend, Angular interfaces, and SQL Server database.
+  
 ## Non-Functional Requirements
 
 ### 1. Performance Requirements
@@ -191,14 +178,9 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 
 #### 2.1 User Authentication
 - Secure hashing and storage of user passwords in the SQL Server database.
-- Optional implementation of two-factor authentication for enhanced security.
-
-#### 2.2 Data Encryption
-- Encryption of all data transfers between Angular frontend and .NET backend using HTTPS.
 
 #### 2.3 Access Control
 - Role-based access control (RBAC) to restrict unauthorized access to sensitive functionalities.
-- Role-specific access permissions for sellers, service providers, skilled individuals, and regular users.
 
 ### 3. Usability Requirements
 
@@ -208,12 +190,10 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 
 #### 3.2 Error Handling
 - Provision of informative and user-friendly error messages for invalid inputs or system errors.
-- Error messages guide users on issue resolution.
 
 ### 4. Reliability Requirements
 
 #### 4.1 System Uptime
-- Strive for 99.9% uptime with allowances for routine maintenance.
 - Advance communication of scheduled maintenance to users.
 
 #### 4.2 Data Integrity
@@ -237,10 +217,7 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 
 ### 7. Regulatory Compliance
 
-#### 7.1 GDPR Compliance
-- Adherence to General Data Protection Regulation (GDPR) standards for user data protection and privacy.
-
-#### 7.2 PCI DSS Compliance (if handling payment transactions)
+#### 7.1 PCI DSS Compliance (if handling payment transactions)
 - Compliance with Payment Card Industry Data Security Standard (PCI DSS) for secure payment processing.
 
 ## System Architecture
