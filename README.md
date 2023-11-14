@@ -34,49 +34,36 @@
 ## Introduction
 
 ### Purpose
-system that connects users with nearby sellers, service providers, and skilled individuals. The system aims to facilitate and enhance the local user experience by providing tailored functionalities for different user classes:
-
-Regular Users: Consumers seeking local products and services. They can create accounts, search for products or services in their vicinity, and benefit from secure registration and personalized user experiences.
-
-Sellers: Businesses or entities (e.g., supermarkets) that can create accounts to manage e-commerce functions and operate as a cashier system. The system allows seamless operation, even without an internet connection, with subsequent synchronization of updates upon reconnection.
-
-Reservation System: Entities like doctors or wedding halls that utilize a reservation system. They can create accounts, users can book available time slots, and the system prevents scheduling conflicts through real-time updates.
-
-Skilled Individuals: Individuals with specific skills (e.g., electricians) who can create accounts showcasing their expertise. Regular users can send service requests, and skill owners can accept or reject requests, leading to further communication.
-
-The overarching goal is to create a versatile platform using a .NET Angular website powered by a SQL Server database. This platform seamlessly connects users with local vendors, service providers, and skilled individuals. The system operates independently and employs RESTful APIs for smooth communication. It may also interface with external systems for data enrichment, ensuring a dynamic and enriched user experience.
-
-In summary, the LocalConnect platform aims to streamline and optimize the interactions between users and local vendors, service providers, and skilled professionals within a given geographical area, providing a centralized solution for various needs.
-
+LocalConnect is a versatile platform connecting users with nearby sellers, service providers, and skilled individuals, aiming to enhance the local user experience through tailored functionalities.
 
 ### Scope
-The system provides functionalities such as user access and registration, seller accounts, reservation systems for service providers, and a skills marketplace. It caters to regular users, sellers, service providers, and skilled individuals, each with tailored features to streamline interactions within the platform.
+The system provides functionalities such as user access and registration, seller accounts, reservation systems for service providers, and a skills marketplace. It caters to regular users, sellers, service providers, and skilled individuals.
 
 ### Overview
-LocalConnect aims to create a centralized platform, utilizing a .NET Angular website powered by a SQL Server database. The system seamlessly connects users with local vendors, service providers, and skilled individuals through dedicated interfaces. It ensures a dynamic and enriched user experience by interfacing with external systems for data enrichment.
+LocalConnect operates as an independent .NET Angular website with a SQL Server database, seamlessly connecting users through dedicated interfaces and interfacing with external systems for data enrichment.
 
 ## Overall Description
 
 ### Product Perspective
-LocalConnect operates as an independent .NET Angular website with a SQL Server database. It utilizes RESTful APIs for communication and interfaces with external systems to enhance the user experience. The system follows a microservices architectural approach for scalability and flexibility.
+LocalConnect follows a microservices architectural approach, operating as an independent .NET Angular website with a SQL Server database, utilizing RESTful APIs for communication and interfacing with external systems.
 
 ### Product Features
 
 #### 1. User Access and Registration
-- Users can create accounts and search for products or services in their vicinity.
+- Secure account creation and product/service search.
 - Angular frontend, .NET backend, and SQL Server database ensure secure registration and personalized user experiences.
 
 #### 2. Seller Accounts
-- Sellers, such as supermarkets, manage e-commerce and cashier functions through dedicated accounts.
+- Sellers manage e-commerce and cashier functions through dedicated accounts.
 - .NET backend and SQL Server database support seamless operation, even without internet connectivity.
 
 #### 3. Reservation System
-- Service providers create accounts and manage reservations using Angular interfaces.
+- Service providers manage reservations using Angular interfaces.
 - Real-time updates and conflict prevention facilitated by .NET backend and SQL Server database.
 
 #### 4. Service Providers
-- Individuals with skills showcase their expertise through Angular-powered profiles.
-- .NET backend and SQL Server database manage the skills marketplace, facilitating communication between users and skill owners.
+- Individuals showcase skills through Angular profiles.
+- .NET backend and SQL Server database manage the skills marketplace.
 
 ### User Classes and Characteristics
 
@@ -115,19 +102,11 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Users securely create accounts, log in, and manage profiles.
 - Authentication mechanisms implemented for security and privacy.
 
-#### 1.3 Assumptions and Preconditions
-- Assumes valid and secure credentials during registration.
-- Requires operational .NET backend and SQL Server database.
-
 ### 2. Product Search and Selection
 
 #### 2.1 Description
 - Users search for products or services through the Angular frontend.
 - SQL Server database facilitates efficient retrieval of information.
-
-#### 2.3 Assumptions and Preconditions
-- Assumes an updated and accurate product catalog.
-- Requires stable internet connection for real-time search results.
 
 ### 3. Seller Management
 
@@ -135,19 +114,11 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Sellers create and manage accounts through Angular interfaces.
 - .NET backend and SQL Server database facilitate account management.
 
-#### 3.3 Assumptions and Preconditions
-- Assumes accurate information during account creation.
-- Requires stable internet connection for real-time updates.
-
 ### 4. Reservation System for Service Providers
 
 #### 4.1 Description
 - Service providers create accounts with reservation systems.
 - .NET backend and SQL Server database manage reservations and prevent conflicts.
-
-#### 4.3 Assumptions and Preconditions
-- Assumes service providers maintain accurate availability information.
-- Requires internet connectivity for real-time updates and conflict prevention.
 
 ### 5. Skills Marketplace
 
@@ -155,13 +126,13 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 - Individuals with skills create profiles using Angular interfaces.
 - .NET backend and SQL Server database manage skill profiles and facilitate communication.
 
-#### 5.3 Assumptions and Preconditions
-- Assumes accurate showcasing of skills in profiles.
-- Requires stable internet connection for real-time communication.
-
 ### Dependencies
 - Dependent on .NET backend, Angular interfaces, and SQL Server database.
-  
+
+### Assumptions and Preconditions
+- Requires a stable internet connection for real-time updates, with the flexibility for sellers to postpone data updates for a specified period, up to one day, due to internet availability constraints.
+- Assumes accurate information for user accounts.
+
 ## Non-Functional Requirements
 
 ### 1. Performance Requirements
