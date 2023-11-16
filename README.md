@@ -44,9 +44,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 
 ## Overall Description
 
-### Product Perspective
-LocalConnect follows a microservices architectural approach, operating as an independent .NET Angular website with a SQL Server database, utilizing RESTful APIs for communication and interfacing with external systems.
-
 ### Product Features
 
 #### 1. User Access and Registration
