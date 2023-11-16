@@ -34,10 +34,10 @@
 ## Introduction
 
 ### Purpose
-LocalConnect is a versatile platform connecting users with nearby sellers, service providers, and skilled individuals, aiming to enhance the local user experience through tailored functionalities.
+LocalConnect is a versatile platform connecting users with nearby sellers, reservation Service Providers, and service providers, aiming to enhance the local user experience through tailored functionalities.
 
 ### Scope
-The system provides functionalities such as user access and registration, seller accounts, reservation systems for service providers, and a skills marketplace. It caters to regular users, sellers, service providers, and skilled individuals.
+The system provides functionalities such as user access and registration, seller accounts, reservation Service Providers accounts, and a service providers. It caters to regular users, sellers, service providers, and skilled individuals.
 
 ### Overview
 LocalConnect operates as an independent .NET Angular website with a SQL Server database, seamlessly connecting users through dedicated interfaces and interfacing with external systems for data enrichment.
