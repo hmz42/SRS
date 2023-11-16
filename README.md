@@ -49,6 +49,49 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 - Requires a stable internet connection for real-time updates, with the flexibility for sellers to postpone data updates for a specified period, up to one day, due to internet availability constraints.
 - Assumes accurate information for user accounts.
 
+  
+## Functional Requirements
+
+### 1. User Access and Registration
+1.1 **Account Creation:**
+   - Users can create accounts with personalized details to meet their individual needs.
+   - The registration process ensures data security and privacy.
+
+1.2 **Tailored Account Settings:**
+   - Users have the ability to customize their account settings, including privacy preferences and notification configurations.
+
+### 2. Service Search in Specific Areas or Accounts
+2.1 **Location-Based Search:**
+   - Users can specify their current location or preferred area for a targeted search.
+   - The system provides results for local sellers, Reservation Service Providers, and Service Providers based on the specified location.
+
+2.2 **Account-Specific Search:**
+   - Users can filter search results based on specific account types (regular users, sellers, reservation service providers, or service providers).
+
+### 3. Seller Accounts
+3.1 **E-commerce Management:**
+   - Sellers can manage their product listings, update information.
+   - Inventory management features ensure accurate product availability.
+
+3.2 **Cashier Functions:**
+   - Sellers have access to cashier functions for smooth updates within the platform.
+
+### 4. Reservation System
+4.1 **Reservation Management:**
+   - Reservation Service Providers can efficiently manage reservations through their accounts.
+   - Real-time updates ensure accurate availability information.
+
+4.2 **Conflict Prevention:**
+   - The system incorporates conflict prevention mechanisms to avoid overlapping reservations and ensure a seamless booking experience.
+
+### 5. Service Providers
+5.1 **Skills Showcase:**
+   - Service Providers showcase their skills and services through profiles, including detailed descriptions and multimedia content.
+
+5.2 **Request Handling:**
+   - Service Providers can accept or refuse user requests for services.
+   - Real-time chat functionality allows direct communication between users and service providers
+
 ## Non-Functional Requirements
 
 ### 1. Performance Requirements
