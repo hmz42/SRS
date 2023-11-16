@@ -47,44 +47,40 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 ### Product Features
 
 #### 1. User Access and Registration
-- Secure account creation and product/service search.
-- Angular frontend, .NET backend, and SQL Server database ensure secure registration and personalized user experiences.
+- Tailored Account Creation to Meet Individual Needs
 
-#### 2. Seller Accounts
+#### 2. Looking for service in a specific area or specific account 
+- Users can specify their current location or preferred area, enabling a targeted search for local sellers, Reservation Service Providers, and Service Providers.
+
+#### 3. Seller Accounts
 - Sellers manage e-commerce and cashier functions through dedicated accounts.
-- .NET backend and SQL Server database support seamless operation, even without internet connectivity.
 
-#### 3. Reservation System
-- Service providers manage reservations using Angular interfaces.
-- Real-time updates and conflict prevention facilitated by .NET backend and SQL Server database.
+#### 4. Reservation System
+- Reservation service providers manage reservations from their accounts.
+- Real-time updates and conflict prevention.
 
-#### 4. Service Providers
-- Individuals showcase skills through Angular profiles.
-- .NET backend and SQL Server database manage the skills marketplace.
+#### 5. Service Providers
+- Individuals showcase skills and they can accept users' requests and chat with them or refuse.
 
 ### User Classes and Characteristics
 
 #### 1. Regular Users
 - Consumers seeking local products and services.
-- Secure authentication and personalized experiences provided by .NET backend and SQL Server database.
 
 #### 2. Sellers
-- Businesses manage products, transactions, and accounts through Angular interfaces.
-- .NET backend and SQL Server database ensure robust e-commerce and cashier systems.
+- They can show their product and update it frequently 
 
 #### 3. Reservation System
-- Providers manage reservations and availability using Angular interfaces.
-- .NET backend and SQL Server database ensure seamless communication and real-time updates.
+- Providers manage reservations and availability
 
 #### 4. Service Providers
-- Showcase skills through Angular profiles and respond to service requests.
-- .NET backend and SQL Server database manage interactions in the skills marketplace.
+- Showcase skills and services through their profiles and respond to service requests.
 
 ### Operating Environment
 
 - The .NET Angular website operates on standard PCs, tablets, and smartphones.
 - Cross-platform accessibility supported, with compatibility on major web browsers (Chrome, Firefox, Safari, Edge).
-- Stable internet connection vital for optimal performance, real-time updates, and communication.
+- A stable internet connection is vital for optimal performance, real-time updates, and communication.
 
 ### Design and Implementation Constraints
 
