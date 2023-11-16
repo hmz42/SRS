@@ -1,126 +1,49 @@
-# LocalConnect Platform
+ # LocalConnect
 
-## Table of Contents
-1. [Introduction](#introduction)
-   - [Purpose](#purpose)
-   - [Scope](#scope)
-   - [Overview](#overview)
-2. [Overall Description](#overall-description)
-   - [Product Perspective](#product-perspective)
-   - [Product Features](#product-features)
-   - [User Classes and Characteristics](#user-classes-and-characteristics)
-   - [Operating Environment](#operating-environment)
-   - [Design and Implementation Constraints](#design-and-implementation-constraints)
-3. [Functional Requirements](#functional-requirements)
-   - [User Authentication](#user-authentication)
-   - [Product Search and Selection](#product-search-and-selection)
-   - [Seller Management](#seller-management)
-   - [Reservation System for Service Providers](#reservation-system-for-service-providers)
-   - [Skills Marketplace](#skills-marketplace)
-4. [Non-Functional Requirements](#non-functional-requirements)
-   - [Performance Requirements](#performance-requirements)
-   - [Security Requirements](#security-requirements)
-   - [Usability Requirements](#usability-requirements)
-   - [Reliability Requirements](#reliability-requirements)
-   - [Compatibility Requirements](#compatibility-requirements)
-   - [Maintainability Requirements](#maintainability-requirements)
-   - [Regulatory Compliance](#regulatory-compliance)
-5. [System Architecture](#system-architecture)
-   - [APIs and Interfaces](#apis-and-interfaces)
-   - [Hardware Interfaces](#hardware-interfaces)
-   - [Software Interfaces](#software-interfaces)
-   - [Communication Interfaces](#communication-interfaces)
+Welcome to LocalConnect – Your Local Connection to Products, Services, and More!
 
-## Introduction
+## Overview
+LocalConnect is a versatile platform connecting users with nearby sellers, Reservation Service Providers, and Service Providers. 
 
-### Purpose
-LocalConnect is a versatile platform connecting users with nearby sellers, reservation Service Providers, and service providers, aiming to enhance the local user experience through tailored functionalities.
+## Purpose
+LocalConnect aims to enhance the local user experience by providing tailored functionalities. Whether you're a regular user, a seller, a reservation service provider, or a skilled individual, LocalConnect has something for you.
 
-### Scope
-The system provides functionalities such as user access and registration, seller accounts, reservation Service Providers accounts, and a service providers. It caters to regular users, sellers, service providers, and skilled individuals.
+## Features
+### 1. User Access and Registration
+- Tailored account creation to meet individual needs.
+- Customize account settings for a personalized experience.
 
-### Overview
-LocalConnect operates as an independent .NET Angular website with a SQL Server database, seamlessly connecting users through dedicated interfaces and interfacing with external systems for data enrichment.
+### 2. Service Search in Specific Areas or Accounts
+- Specify your location or preferred area for a targeted search.
+- Filter search results based on account types.
 
-## Overall Description
+### 3. Seller Accounts
+- Manage product listings and cashier functions for seamless transactions.
 
-### Product Features
+### 4. Reservation System providers
+- Efficiently manage reservations with real-time updates.
+- Conflict prevention mechanisms for a smooth booking experience.
 
-#### 1. User Access and Registration
-- Tailored Account Creation to Meet Individual Needs
+### 5. Service Providers
+- Showcase skills and services through profiles.
+- Accept or refuse user requests with real-time chat functionality.
 
-#### 2. Looking for service in a specific area or specific account 
-- Users can specify their current location or preferred area, enabling a targeted search for local sellers, Reservation Service Providers, and Service Providers.
+## User Classes and Characteristics
+- Regular Users: Discover and explore local products and services.
+- Sellers: Showcase products and manage listings.
+- Reservation Service Providers: Offer Efficiently manage reservation.
+- Service Providers: Showcase skills and services to attract users.
 
-#### 3. Seller Accounts
-- Sellers manage e-commerce and cashier functions through dedicated accounts.
+## Operating Environment
+- Cross-platform accessibility on PCs, tablets, and smartphones.
+- Browser compatibility: Chrome, Firefox, Safari, Edge.
+- Stable internet connection for optimal performance.
 
-#### 4. Reservation System
-- Reservation service providers manage reservations from their accounts.
-- Real-time updates and conflict prevention.
+## Design and Implementation Constraints
+- Technology Stack: .NET framework, Angular, SQL Server.
+- Minimum Hardware Requirements: 2GB RAM, dual-core processor.
 
-#### 5. Service Providers
-- Individuals showcase skills and they can accept users' requests and chat with them or refuse.
 
-### User Classes and Characteristics
-
-#### 1. Regular Users
-- Consumers seeking local products and services.
-
-#### 2. Sellers
-- They can show their product and update it frequently 
-
-#### 3. Reservation System
-- Providers manage reservations and availability
-
-#### 4. Service Providers
-- Showcase skills and services through their profiles and respond to service requests.
-
-### Operating Environment
-
-- The .NET Angular website operates on standard PCs, tablets, and smartphones.
-- Cross-platform accessibility supported, with compatibility on major web browsers (Chrome, Firefox, Safari, Edge).
-- A stable internet connection is vital for optimal performance, real-time updates, and communication.
-
-### Design and Implementation Constraints
-
-- .NET framework on the backend, Angular on the frontend, and SQL Server as the relational database.
-- Minimum hardware requirements: 2GB RAM, dual-core processor.
-
-## Functional Requirements
-
-### 1. User Authentication
-
-#### 1.1 Description
-- Users securely create accounts, log in, and manage profiles.
-- Authentication mechanisms implemented for security and privacy.
-
-### 2. Product Search and Selection
-
-#### 2.1 Description
-- Users search for products or services through the Angular frontend.
-- SQL Server database facilitates efficient retrieval of information.
-
-### 3. Seller Management
-
-#### 3.1 Description
-- Sellers create and manage accounts through Angular interfaces.
-- .NET backend and SQL Server database facilitate account management.
-
-### 4. Reservation System for Service Providers
-
-#### 4.1 Description
-- Service providers create accounts with reservation systems.
-- .NET backend and SQL Server database manage reservations and prevent conflicts.
-
-### 5. Skills Marketplace
-
-#### 5.1 Description
-- Individuals with skills create profiles using Angular interfaces.
-- .NET backend and SQL Server database manage skill profiles and facilitate communication.
-
-### Dependencies
-- Dependent on .NET backend, Angular interfaces, and SQL Server database.
 
 ### Assumptions and Preconditions
 - Requires a stable internet connection for real-time updates, with the flexibility for sellers to postpone data updates for a specified period, up to one day, due to internet availability constraints.
@@ -178,11 +101,6 @@ LocalConnect operates as an independent .NET Angular website with a SQL Server d
 
 #### 6.2 Modularity
 - System designed with a modular architecture for future enhancements or modifications.
-
-### 7. Regulatory Compliance
-
-#### 7.1 PCI DSS Compliance (if handling payment transactions)
-- Compliance with Payment Card Industry Data Security Standard (PCI DSS) for secure payment processing.
 
 ## System Architecture
 
