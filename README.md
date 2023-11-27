@@ -160,7 +160,7 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 ### Software Interfaces
 
 #### Web Browsers
-- Angular frontend compatible with latest versions of popular web browsers (Chrome, Firefox, Safari, Edge).
+- Angular frontend is compatible with the latest versions of popular web browsers (Chrome, Firefox, Safari, Edge).
 
 #### Database Management System
 - Interfaces with SQL Server database for efficient storage and retrieval of data.
@@ -169,7 +169,7 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 
 #### Internet Connection
 - Relies on a stable internet connection for real-time updates, data synchronization, and user interactions.
-- Utilizes HTTPS for secure communication between frontend and backend.
+- Utilizes HTTPS for secure communication between the frontend and back end.
 
 #### Email Notifications
 - Sends email notifications for account verification, password recovery, and important system updates.
@@ -179,111 +179,102 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 
 ____________________________________________________________________________________________________________________________________________________________________
 
-# Project Name
 
-## User Stories
+# User Stories
 
-### User Story 1: Register as a Regular User
+## User Story 1: Register as a Regular User
 
 As a potential user, I want to be able to register as a regular user on the platform so that I can access and utilize various services.
 
-**Acceptance Criteria:**
-1. The registration process should include providing basic information such as name, email, and password.
-2. Upon successful registration, the user should receive a confirmation email.
-3. The user should be able to log in with the registered credentials.
+### Acceptance Criteria:
 
----
+- The registration process should include providing basic information such as name, email, and password.
+- Upon successful registration, the user should receive a confirmation email.
+- The user should be able to log in with the registered credentials.
 
-### User Story 2: View and Edit My Profile
+## User Story 2: View and Edit My Profile
 
 As a registered user, I want to be able to view and edit my profile information to ensure that it is accurate and up-to-date.
 
-**Acceptance Criteria:**
-1. There should be a user profile section accessible after logging in.
-2. The user should be able to view their existing profile information.
-3. The user should be able to edit and update their profile details such as name, contact information, and preferences.
+### Acceptance Criteria:
 
----
+- There should be a user profile section accessible after logging in.
+- The user should be able to view their existing profile information.
+- The user should be able to edit and update their profile details such as name, contact information, and preferences.
 
-### User Story 3: Determine My Location
+## User Story 3: Determine My Location
 
 As a user, I want the platform to automatically determine my location or allow me to manually input my location to ensure that I receive relevant local services.
 
-**Acceptance Criteria:**
-1. The platform should have a feature to automatically detect the user's location based on device data.
-2. Alternatively, the user should be able to manually input their location.
-3. The user's location should be stored and used for providing location-specific services.
+### Acceptance Criteria:
 
----
+- The platform should have a feature to automatically detect the user's location based on device data.
+- Alternatively, the user should be able to manually input their location.
+- The user's location should be stored and used for providing location-specific services.
 
-### User Story 4: Choose Needed Services and Filter Providers
+## User Story 4: Choose Needed Services and Filter Providers
 
 As a user, I want to be able to choose from a list of services and have the option to filter service providers based on my location.
 
-**Acceptance Criteria:**
-1. The platform should have a list of available services for users to choose from.
-2. The user should be able to filter service providers based on their determined or manually inputted location.
-3. The filtered results should display relevant service providers for the selected service in the user's location.
+### Acceptance Criteria:
 
----
+- The platform should have a list of available services for users to choose from.
+- The user should be able to filter service providers based on their determined or manually inputted location.
+- The filtered results should display relevant service providers for the selected service in the user's location.
 
-### User Story 5: Interact with Sellers, Reservation Providers, and Service Providers
+## User Story 5: Interact with Sellers, Reservation Providers, and Service Providers
 
 As a user, depending on the selected service, I want to interact with sellers, reservation providers, and service providers in different ways.
 
-**Acceptance Criteria:**
+### Acceptance Criteria:
 
-1. **For Seller:**
-   - View products listed by sellers.
-   - Search for specific products.
-   - Choose and purchase products from the results.
+#### For Seller:
 
-2. **For Reservation Provider:**
-   - View available appointments.
-   - Search for specific reservation services.
-   - Choose and request a reservation appointment.
+- View products listed by sellers.
+- Search for specific products.
+- Choose and purchase products from the results.
 
-3. **For Service Provider:**
-   - View available services.
-   - Search for specific service providers.
-   - Choose and send a service request to the selected provider.
+#### For Reservation Provider:
 
----
+- View available appointments.
+- Search for specific reservation services.
+- Choose and request a reservation appointment.
 
-### User Story 6: Seller Operations
+#### For Service Provider:
+
+- View available services.
+- Search for specific service providers.
+- Choose and send a service request to the selected provider.
+
+## User Story 6: Seller Operations
 
 As a seller, I want to be able to perform necessary operations related to my products.
 
-**Acceptance Criteria:**
+### Acceptance Criteria:
 
-1. Log in with seller credentials.
-2. View a list of products.
-3. Add new products to the list.
-4. Edit and update existing product details.
+- Log in with seller credentials.
+- View a list of products.
+- Add new products to the list.
+- Edit and update existing product details.
 
----
-
-### User Story 7: Reservation Provider Operations
+## User Story 7: Reservation Provider Operations
 
 As a reservation provider, I want to be able to manage my appointments effectively.
 
-**Acceptance Criteria:**
+### Acceptance Criteria:
 
-1. Log in with reservation provider credentials.
-2. View a list of appointments.
-3. Add new free appointments to the list.
-4. Edit and update details of existing free appointments.
+- Log in with reservation provider credentials.
+- View a list of appointments.
+- Add new free appointments to the list.
+- Edit and update details of existing free appointments.
 
----
-
-### User Story 8: Service Provider Operations
+## User Story 8: Service Provider Operations
 
 As a service provider, I want to be able to manage orders and their status.
 
-**Acceptance Criteria:**
+### Acceptance Criteria:
 
-1. Log in with service provider credentials.
-2. View a list of orders.
-3. Accept or decline orders based on availability.
-4. Update the status of orders to keep users informed.
-
+- Log in with service provider credentials.
+- View a list of orders.
+- Accept or decline orders based on availability.
+- Update the status of orders to keep users informed.
