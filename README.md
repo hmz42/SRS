@@ -3,10 +3,10 @@
 Welcome to LocalConnect – Your Local Connection to Products, Services, and More!
 
 ## Overview
-LocalConnect is a versatile platform connecting users with nearby sellers, Reservation Service Providers, and Service Providers. 
+LocalConnect is a versatile platform connecting users with nearby Reservation Providers and Service Providers. 
 
 ## Purpose
-LocalConnect aims to enhance the local user experience by providing tailored functionalities. Whether you're a regular user, a seller, a reservation service provider, or a skilled individual, LocalConnect has something for you.
+LocalConnect aims to enhance the local user experience by providing tailored functionalities. Whether you're a regular user, a reservation  provider, or a skilled individual, LocalConnect has something for you.
 
 ## Features
 ### 1. User Access and Registration
@@ -17,21 +17,17 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 - Specify your location or preferred area for a targeted search.
 - Filter search results based on account types.
 
-### 3. Seller Accounts
-- Manage product listings and cashier functions for seamless transactions.
-
-### 4. Reservation System providers
+### 3. Reservation System providers
 - Efficiently manage reservations with real-time updates.
 - Conflict prevention mechanisms for a smooth booking experience.
 
-### 5. Service Providers
+### 4. Service Providers
 - Showcase skills and services through profiles.
 - Accept or refuse user requests with real-time chat functionality.
 
 ## User Classes and Characteristics
-- Regular Users: Discover and explore local products and services.
-- Sellers: Showcase products and manage listings.
-- Reservation Service Providers: Offer Efficiently manage reservation.
+- Regular Users: Discover and explore local services.
+- Reservation Service Providers: Offer Efficiently managed reservations.
 - Service Providers: Showcase skills and services to attract users.
 
 ## Operating Environment
@@ -54,43 +50,47 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 
 ### 1. User Access and Registration
 1.1 **Account Creation:**
+   - Implement social media authentication (e.g., Google, Facebook) as an alternative registration option for users. 
    - Users can create accounts with personalized details to meet their individual needs.
    - The registration process ensures data security and privacy.
 
 1.2 **Tailored Account Settings:**
-   - Users have the ability to customize their account settings, including privacy preferences and notification configurations.
+   - Users can customize their account settings, including privacy preferences and notification configurations.
 
 ### 2. Service Search in Specific Areas or Accounts
 2.1 **Location-Based Search:**
    - Users can specify their current location or preferred area for a targeted search.
-   - The system provides results for local sellers, Reservation Service Providers, and Service Providers based on the specified location.
+   - The system provides results for Reservation Providers, and Service Providers based on the specified location.
 
 2.2 **Account-Specific Search:**
-   - Users can filter search results based on specific account types (regular users, sellers, reservation service providers, or service providers).
+   - Users can filter search results based on specific account types (regular users, reservation providers, or service providers).
 
-### 3. Seller Accounts
-3.1 **E-commerce Management:**
-   - Sellers can manage their product listings, update information.
-   - Inventory management features ensure accurate product availability.
 
-3.2 **Cashier Functions:**
-   - Sellers have access to cashier functions for smooth updates within the platform.
-
-### 4. Reservation System
-4.1 **Reservation Management:**
+### 3. Reservation System
+3.1 **Reservation Management:**
    - Reservation Service Providers can efficiently manage reservations through their accounts.
-   - Real-time updates ensure accurate availability information.
-
-4.2 **Conflict Prevention:**
+   - Real-time updates ensure the accurate availability of information.
+  
+3.2 **Conflict Prevention:**
    - The system incorporates conflict prevention mechanisms to avoid overlapping reservations and ensure a seamless booking experience.
 
-### 5. Service Providers
-5.1 **Skills Showcase:**
+### 4. Service Providers
+4.1 **Skills Showcase:**
    - Service Providers showcase their skills and services through profiles, including detailed descriptions and multimedia content.
 
-5.2 **Request Handling:**
+4.2 **Request Handling:**
    - Service Providers can accept or refuse user requests for services.
    - Real-time chat functionality allows direct communication between users and service providers
+   - Incorporate a portfolio feature for Service Providers, allowing them to showcase past work, client testimonials, or certifications, enhancing their profiles and instilling confidence in users.
+     
+## 5. Rating and Reviews
+
+ 5.1 **Overall Rating**
+- This overall rating is dynamically calculated based on detailed evaluations provided in the "Previous Services Rating" section.
+
+ 5.2 **Previous Services Rating**
+- In this section, users have the opportunity to rate specific aspects of past services received. The detailed rating system covers various facets such as punctuality, communication, quality of service, and more.
+
 
 ## Non-Functional Requirements
 
@@ -169,7 +169,7 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 
 #### Internet Connection
 - Relies on a stable internet connection for real-time updates, data synchronization, and user interactions.
-- Utilizes HTTPS for secure communication between the frontend and back end.
+- Utilizes HTTPS for secure communication between the front end and back end.
 
 #### Email Notifications
 - Sends email notifications for account verification, password recovery, and important system updates.
@@ -222,19 +222,13 @@ As a user, I want to be able to choose from a list of services and have the opti
 - The user should be able to filter service providers based on their determined or manually inputted location.
 - The filtered results should display relevant service providers for the selected service in the user's location.
 
-## User Story 5: Interact with Sellers, Reservation Providers, and Service Providers
+## User Story 5: Reservation Providers, and Service Providers
 
-As a user, depending on the selected service, I want to interact with sellers, reservation providers, and service providers in different ways.
+As a user, depending on the selected service, I want to interact with reservation providers, and service providers in different ways.
 
 ### Acceptance Criteria:
 
-#### For Seller:
-
-- View products listed by sellers.
-- Search for specific products.
-- Choose and purchase products from the results.
-
-#### For Reservation Provider:
+### For Reservation Provider:
 
 - View available appointments.
 - Search for specific reservation services.
@@ -245,17 +239,6 @@ As a user, depending on the selected service, I want to interact with sellers, r
 - View available services.
 - Search for specific service providers.
 - Choose and send a service request to the selected provider.
-
-## User Story 6: Seller Operations
-
-As a seller, I want to be able to perform necessary operations related to my products.
-
-### Acceptance Criteria:
-
-- Log in with seller credentials.
-- View a list of products.
-- Add new products to the list.
-- Edit and update existing product details.
 
 ## User Story 7: Reservation Provider Operations
 
