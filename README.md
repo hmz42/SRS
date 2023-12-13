@@ -200,11 +200,15 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 ____________________________________________________________________________________________________________________________________________________________________
 
 
+
+
 # User Stories
 
-## User Story 1: Register as a Regular User
+## User Access and Registration
 
-As a potential user, I want to be able to register as a regular user on the platform so that I can access and utilize various services.
+- **Sign Up:** As a new user, you can sign up for LocalConnect using your email and password or with [Google/Facebook] account to create a personalized account.
+
+- **Log In:** Existing users can log in quickly and easily using their Google or Facebook accounts.
 
 ### Acceptance Criteria:
 
@@ -212,72 +216,126 @@ As a potential user, I want to be able to register as a regular user on the plat
 - Upon successful registration, the user should receive a confirmation email.
 - The user should be able to log in with the registered credentials.
 
-## User Story 2: View and Edit My Profile
+## Password Reset
 
-As a registered user, I want to be able to view and edit my profile information to ensure that it is accurate and up-to-date.
+**User Story: Reset Password**
+- As a registered user,
+- I want to reset my password if I forget it,
+- So that I can regain access to my account.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
+- Provide a "Forgot Password" link on the login page.
+- Prompt the user to enter their email address.
+- Send a password reset link to the user's email.
+- Allow the user to set a new password using the provided link.
+- Ensure security measures, such as email verification, to protect the account.
 
-- There should be a user profile section accessible after logging in.
-- The user should be able to view their existing profile information.
-- The user should be able to edit and update their profile details such as name, contact information, and preferences.
+  ## Service Search in Specific Areas or Accounts
 
-## User Story 3: Determine My Location
+**User Story: Service Search in Specific Areas or Accounts**
+- As a user,
+- I want to search for local services in a specific area to find relevant Reservation Providers or Service Providers,
+- So that I can easily discover and connect with services near my location.
 
-As a user, I want the platform to automatically determine my location or allow me to manually input my location to ensure that I receive relevant local services.
+**Acceptance Criteria:**
+- Provide a search bar allowing users to input their preferred location.
+- Display search results that include Reservation Providers and Service Providers based on the specified area.
+- Include filters for account types (Reservation Providers, Service Providers) to refine search results.
+- Ensure the search functionality is intuitive and provides relevant and accurate results.
 
-### Acceptance Criteria:
+  ## Seamless Interaction with a Service Provider
 
-- The platform should have a feature to automatically detect the user's location based on device data.
-- Alternatively, the user should be able to manually input their location.
-- The user's location should be stored and used for providing location-specific services.
+**Story:**
+- Upon finding a Service Provider with positive reviews and relevant skills, I initiate a service request.
+- The Service Provider receives a real-time notification about my request and reviews the details.
+- If the Service Provider accepts my request, I want to seamlessly transition into a chat interface for direct communication.
+- In the chat, I can discuss service details, ask questions, and receive any additional information from the Service Provider.
+- After the successful completion of the service, I have the option to provide a user rating and review based on my experience.
 
-## User Story 4: Choose Needed Services and Filter Providers
+**Acceptance Criteria:**
+3. Users can initiate a service request with the necessary details.
+4. Service Providers receive real-time notifications for new service requests.
+5. Service Providers can review and accept service requests.
+6. Upon acceptance, users and Service Providers can seamlessly transition into a chat interface.
+7. The chat interface supports real-time communication between users and Service Providers.
+8. Users can discuss service details, ask questions, and receive timely responses within the chat.
+9. The system records and displays the history of the chat for reference.
+10. After service completion, users can provide a rating and review based on their experience.
 
-As a user, I want to be able to choose from a list of services and have the option to filter service providers based on my location.
+## Flexible Reservation Options for Users
 
-### Acceptance Criteria:
+**Story:**
+- I choose from the Reservation Provider's available appointment slots displayed in real-time.
+- The system allows me to select my preferred appointment time and date directly.
+- During the reservation process, I have the option to choose between online payment or opting for an alternative payment method upon service completion.
+- If the selected appointment slot is available, the system confirms my reservation instantly.
+- After confirming, I can view the reservation details, including the chosen appointment time, and communicate with the Service Provider if needed.
+- Upon successful service completion, I have the option to provide a user rating and review based on my experience.
 
-- The platform should have a list of available services for users to choose from.
-- The user should be able to filter service providers based on their determined or manually inputted location.
-- The filtered results should display relevant service providers for the selected service in the user's location.
+**Acceptance Criteria:**
+2. The reservation section allows users to explore available services and directly choose appointment slots.
+3. Users can select a preferred appointment time and date from the available options.
+4. Users have the option to choose between online payment and an alternative payment method upon service completion.
+5. The system confirms the reservation instantly if the selected appointment slot is available.
+6. Users can view reservation details, including the chosen appointment time, after confirmation.
+7. Users can communicate with the Service Provider if necessary.
+8. The system records and displays user ratings and reviews for completed reservations.
 
-## User Story 5: Reservation Providers, and Service Providers
+## Manage Profile Details
 
-As a user, depending on the selected service, I want to interact with reservation providers, and service providers in different ways.
+**Story:**
+- Upon login, I effortlessly navigate to the profile section, where my username, contact information, location, and bio are displayed.
+- Opting to enhance my profile, I select "Edit Profile" and make adjustments to contact details, location, bio, profile picture, and background.
+- Once changes are saved, my profile undergoes instant updates, ensuring the revised details are promptly visible both personally and publicly on the LocalConnect platform.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
+- Users access the profile section, viewing current details.
+- "Edit Profile" allows modifications to contact information, location, bio, and profile picture, etc.
+- Saved changes instantly update the user's profile for both personal and public visibility on LocalConnect.
 
-### For Reservation Provider:
+  ## Create and Administer Business Page
 
-- View available appointments.
-- Search for specific reservation services.
-- Choose and request a reservation appointment.
+**Story:**
+- As a LocalConnect user aspiring to showcase my services, I want the ability to create and manage a business page similar to social media platforms.
+- Upon logging into LocalConnect, I navigate to the profile section and choose to create a business page.
+- The creation process involves entering essential details such as business name, category, contact information, and a brief description.
+- I have the option to upload a logo or relevant images to enhance the visual appeal of the business page.
+- Once the business page is created, I become the admin with the authority to modify page details and settings.
+- As the admin, I can regularly update business information, post updates, and manage reservations or service requests.
+- Users interested in my services can follow the business page to receive updates and make reservations.
+- The business page reflects real-time changes, ensuring that the information is accurate and up-to-date.
 
-#### For Service Provider:
+**Acceptance Criteria:**
+1. Users can navigate to the profile section and initiate the creation of a business page.
+2. The creation process involves entering business details such as name, category, contact information, and a brief description.
+3. Users can upload a logo or relevant images to customize the visual appearance of the business page.
+4. Upon creation, the user becomes the admin of the business page with the authority to modify details and settings.
+5. Admins can regularly update business information, post updates, and manage reservations or service requests.
+6. Users can follow business pages to receive updates make reservations and request services.
+7. Real-time updates ensure that the information on the business page is accurate and up-to-date.
 
-- View available services.
-- Search for specific service providers.
-- Choose and send a service request to the selected provider.
 
-## User Story 7: Reservation Provider Operations
 
-As a reservation provider, I want to be able to manage my appointments effectively.
 
-### Acceptance Criteria:
 
-- Log in with reservation provider credentials.
-- View a list of appointments.
-- Add new free appointments to the list.
-- Edit and update details of existing free appointments.
 
-## User Story 8: Service Provider Operations
 
-As a service provider, I want to be able to manage orders and their status.
 
-### Acceptance Criteria:
 
-- Log in with service provider credentials.
-- View a list of orders.
-- Accept or decline orders based on availability.
-- Update the status of orders to keep users informed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
