@@ -201,20 +201,19 @@ ________________________________________________________________________________
 
 
 
-
 # User Stories
 
 ## User Access and Registration
 
-- **Sign Up:** As a new user, you can sign up for LocalConnect using your email and password or with [Google/Facebook] account to create a personalized account.
-
+- **Sign Up:** As a new user, sign up for LocalConnect using your email and password or [Google/Facebook] account to create a personalized account.
+  
 - **Log In:** Existing users can log in quickly and easily using their Google or Facebook accounts.
 
 ### Acceptance Criteria:
 
-- The registration process should include providing basic information such as name, email, and password.
-- Upon successful registration, the user should receive a confirmation email.
-- The user should be able to log in with the registered credentials.
+1. The registration process includes providing basic information such as name, email, and password.
+2. Upon successful registration, users receive a confirmation email.
+3. Users can log in with their registered credentials.
 
 ## Password Reset
 
@@ -224,13 +223,13 @@ ________________________________________________________________________________
 - So that I can regain access to my account.
 
 **Acceptance Criteria:**
-- Provide a "Forgot Password" link on the login page.
-- Prompt the user to enter their email address.
-- Send a password reset link to the user's email.
-- Allow the user to set a new password using the provided link.
-- Ensure security measures, such as email verification, to protect the account.
+1. Provide a "Forgot Password" link on the login page.
+2. Prompt users to enter their email address.
+3. Send a password reset link to the user's email.
+4. Allow users to set a new password using the provided link.
+5. Ensure security measures, such as email verification, to protect the account.
 
-  ## Service Search in Specific Areas or Accounts
+## Service Search in Specific Areas or Accounts
 
 **User Story: Service Search in Specific Areas or Accounts**
 - As a user,
@@ -238,87 +237,88 @@ ________________________________________________________________________________
 - So that I can easily discover and connect with services near my location.
 
 **Acceptance Criteria:**
-- Provide a search bar allowing users to input their preferred location.
-- Display search results that include Reservation Providers and Service Providers based on the specified area.
-- Include filters for account types (Reservation Providers, Service Providers) to refine search results.
-- Ensure the search functionality is intuitive and provides relevant and accurate results.
+1. Provide a search bar allowing users to input their preferred location.
+2. Display search results that include Reservation Providers and Service Providers based on the specified area.
+3. Include filters for account types (Reservation Providers, Service Providers) to refine search results.
+4. Ensure the search functionality is intuitive and provides relevant and accurate results.
 
-  ## Seamless Interaction with a Service Provider
+## Seamless Interaction with a Service Provider
 
 **Story:**
-- Upon finding a Service Provider with positive reviews and relevant skills, I initiate a service request.
-- The Service Provider receives a real-time notification about my request and reviews the details.
-- If the Service Provider accepts my request, I want to seamlessly transition into a chat interface for direct communication.
-- In the chat, I can discuss service details, ask questions, and receive any additional information from the Service Provider.
-- After the successful completion of the service, I have the option to provide a user rating and review based on my experience.
+- Upon finding a Service Provider with positive reviews and relevant skills, initiate a service request.
+- The Service Provider receives a real-time notification about the request and reviews the details.
+- If the Service Provider accepts the request, seamlessly transition into a chat interface for direct communication.
+- In the chat, discuss service details, ask questions, and receive any additional information from the Service Provider.
+- After the successful completion of the service, have the option to provide a user rating and review based on the experience.
 
 **Acceptance Criteria:**
-3. Users can initiate a service request with the necessary details.
-4. Service Providers receive real-time notifications for new service requests.
-5. Service Providers can review and accept service requests.
-6. Upon acceptance, users and Service Providers can seamlessly transition into a chat interface.
-7. The chat interface supports real-time communication between users and Service Providers.
-8. Users can discuss service details, ask questions, and receive timely responses within the chat.
-9. The system records and displays the history of the chat for reference.
-10. After service completion, users can provide a rating and review based on their experience.
+1. Users can initiate a service request with the necessary details.
+2. Service Providers receive real-time notifications for new service requests.
+3. Service Providers can review and accept service requests.
+4. Upon acceptance, users and Service Providers can seamlessly transition into a chat interface.
+5. The chat interface supports real-time communication between users and Service Providers.
+6. Users can discuss service details, ask questions, and receive timely responses within the chat.
+7. The system records and displays the history of the chat for reference.
+8. After service completion, users can provide a rating and review based on their experience.
 
 ## Flexible Reservation Options for Users
 
 **Story:**
-- I choose from the Reservation Provider's available appointment slots displayed in real-time.
-- The system allows me to select my preferred appointment time and date directly.
-- During the reservation process, I have the option to choose between online payment or opting for an alternative payment method upon service completion.
-- If the selected appointment slot is available, the system confirms my reservation instantly.
-- After confirming, I can view the reservation details, including the chosen appointment time, and communicate with the Service Provider if needed.
-- Upon successful service completion, I have the option to provide a user rating and review based on my experience.
+- Choose from the Reservation Provider's available appointment slots displayed in real-time.
+- The system allows the selection of a preferred appointment time and date directly.
+- During the reservation process, there's an option to choose between online payment or an alternative payment method upon service completion.
+- If the selected appointment slot is available, the system confirms the reservation instantly.
+- After confirming, view reservation details, including the chosen appointment time, and communicate with the Service Provider if needed.
+- Upon successful service completion, there's an option to provide a user rating and review based on the experience.
 
 **Acceptance Criteria:**
-2. The reservation section allows users to explore available services and directly choose appointment slots.
-3. Users can select a preferred appointment time and date from the available options.
-4. Users have the option to choose between online payment and an alternative payment method upon service completion.
-5. The system confirms the reservation instantly if the selected appointment slot is available.
-6. Users can view reservation details, including the chosen appointment time, after confirmation.
-7. Users can communicate with the Service Provider if necessary.
-8. The system records and displays user ratings and reviews for completed reservations.
+1. The reservation section allows users to explore available services and directly choose appointment slots.
+2. Users can select a preferred appointment time and date from the available options.
+3. Users have the option to choose between online payment and an alternative payment method upon service completion.
+4. The system confirms the reservation instantly if the selected appointment slot is available.
+5. Users can view reservation details, including the chosen appointment time, after confirmation.
+6. Users can communicate with the Service Provider if necessary.
+7. The system records and displays user ratings and reviews for completed reservations.
 
 ## Manage Profile Details
 
 **Story:**
-- Upon login, I effortlessly navigate to the profile section, where my username, contact information, location, and bio are displayed.
-- Opting to enhance my profile, I select "Edit Profile" and make adjustments to contact details, location, bio, profile picture, and background.
-- Once changes are saved, my profile undergoes instant updates, ensuring the revised details are promptly visible both personally and publicly on the LocalConnect platform.
+- Upon login, effortlessly navigate to the profile section, where the username, contact information, location, and bio are displayed.
+- Opting to enhance the profile, select "Edit Profile" and make adjustments to contact details, location, bio, profile picture, and background.
+- Once changes are saved, the profile undergoes instant updates, ensuring the revised details are promptly visible both personally and publicly on the LocalConnect platform.
 
 **Acceptance Criteria:**
-- Users access the profile section, viewing current details.
-- "Edit Profile" allows modifications to contact information, location, bio, and profile picture, etc.
-- Saved changes instantly update the user's profile for both personal and public visibility on LocalConnect.
+1. Users access the profile section, viewing current details.
+2. "Edit Profile" allows modifications to contact information, location, bio, and profile picture, etc.
+3. Saved changes instantly update the user's profile for both personal and public visibility on LocalConnect.
 
-  ## Create and Administer Business Page
+## Create and Administer Business Page
 
 **Story:**
-- As a LocalConnect user aspiring to showcase my services, I want the ability to create and manage a business page similar to social media platforms.
-- Upon logging into LocalConnect, I navigate to the profile section and choose to create a business page.
+- As a LocalConnect user aspiring to showcase services, want the ability to create and manage a business page similar to social media platforms.
+- Upon logging into LocalConnect, navigate to the profile section and choose to create a business page.
 - The creation process involves entering essential details such as business name, category, contact information, and a brief description.
-- I have the option to upload a logo or relevant images to enhance the visual appeal of the business page.
-- Once the business page is created, I become the admin with the authority to modify page details and settings.
-- As the admin, I can regularly update business information, post updates, and manage reservations or service requests.
-- Users interested in my services can follow the business page to receive updates and make reservations.
+- Have the option to upload a logo or relevant images to enhance the visual appeal of the business page.
+- Once the business page is created, become the admin with the authority to modify page details and settings.
+- As the admin, regularly update business information, post updates, and manage reservations or service requests.
+- Users interested in services can follow the business page to receive updates and make reservations.
 - The business page reflects real-time changes, ensuring that the information is accurate and up-to-date.
 
 **Acceptance Criteria:**
 1. Users can navigate to the profile section and initiate the creation of a business page.
 2. The creation process involves entering business details such as name, category, contact information, and a brief description.
 3. Users can upload a logo or relevant images to customize the visual appearance of the business page.
-4. Upon creation, the user becomes the admin of the business page with the authority to modify details and settings.
+4.Upon creation, the user becomes the admin of the business page with the authority to modify details and settings.
+
 5. Admins can regularly update business information, post updates, and manage reservations or service requests.
-6. Users can follow business pages to receive updates make reservations and request services.
+6. Users can follow business pages to receive updates, make reservations, and request services.
 7. Real-time updates ensure that the information on the business page is accurate and up-to-date.
 
-## Administer Business Reservation Settings (ex : Doctor and halls)
+## Administer Business Reservation Settings (ex: Doctor and Halls)
 
 **Story:**
 - As an admin for a reservation system, I need the ability to view and edit details such as the business name, contact information, portfolio, and a brief description.
-- To optimize reservation scheduling, I set available reservation times and configurable settings, such as maximum daily reservations and lead time for booking appointments.
+- To optimize reservation scheduling, set available reservation times and configurable settings, such as maximum daily reservations and lead time for booking appointments.
 - Once adjustments are made, the system promptly reflects changes, ensuring accurate and up-to-date information for users.
 
 **Acceptance Criteria:**
@@ -329,11 +329,13 @@ ________________________________________________________________________________
 5. Changes made in the admin panel are instantly reflected in the business profile and reservation system.
 
 ## Administer Hotel Reservation Settings
+
+**Story:**
 1. Log into the admin panel, accessing the hotel profile management section.
 2. Review and edit hotel details, encompassing name, contact info, and a brief description.
 3. Showcase rooms in the portfolio by adding and managing comprehensive details: Room types, Descriptions, Images, Check-in/check-out times, Costs, Availability.
-5. Configure additional settings for a personalized reservation experience: Maximum stay duration, Cancellation policies, Special offers.
-6. Confirm instant reflection of changes, ensuring accuracy in the hotel profile and reservation system for users.
+4. Configure additional settings for a personalized reservation experience: Maximum stay duration, Cancellation policies, Special offers.
+5. Confirm instant reflection of changes, ensuring accuracy in the hotel profile and reservation system for users.
 
 **Acceptance Criteria:**
 1. Successfully log into the admin panel and navigate to the hotel profile management section.
@@ -342,7 +344,7 @@ ________________________________________________________________________________
 4. Configure additional reservation settings, including maximum stay duration, cancellation policies, and special offers.
 5. Confirm that changes made are instantly reflected in both the hotel profile and the reservation system, providing users with accurate and up-to-date information.
 
-   ## Service Provider Interaction Workflow on LocalConnect
+## Service Provider Interaction Workflow on LocalConnect
 
 **Story:**
 - Log into the LocalConnect platform, accessing the service provider account dashboard.
@@ -361,6 +363,7 @@ ________________________________________________________________________________
 5. Engage in real-time communication with users through the integrated chat functionality.
 6. Ensure that users receive prompt updates on the status of their reservations or service requests.
 7. Update the portfolio with new work, certifications, and client testimonials for continuous profile enhancement.
+
 
 
 
