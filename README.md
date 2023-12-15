@@ -121,7 +121,7 @@ LocalConnect aims to enhance the local user experience by providing tailored fun
 - Prompt processing of search queries, transactions, and reservation confirmations.
 
 #### 1.2 Scalability
-- Support for up to 10,000 simultaneous users without significant performance degradation.
+- Support for up to 1,000,000 simultaneous users without significant performance degradation.
 - Efficient scaling of database queries and transaction handling.
 
 ### 2. Security Requirements
