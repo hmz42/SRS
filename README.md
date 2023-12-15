@@ -314,6 +314,56 @@ ________________________________________________________________________________
 6. Users can follow business pages to receive updates make reservations and request services.
 7. Real-time updates ensure that the information on the business page is accurate and up-to-date.
 
+## Administer Business Reservation Settings (ex : Doctor and halls)
+
+**Story:**
+- As an admin for a reservation system, I need the ability to view and edit details such as the business name, contact information, portfolio, and a brief description.
+- To optimize reservation scheduling, I set available reservation times and configurable settings, such as maximum daily reservations and lead time for booking appointments.
+- Once adjustments are made, the system promptly reflects changes, ensuring accurate and up-to-date information for users.
+
+**Acceptance Criteria:**
+1. The admin accesses the profile management section in the admin panel.
+2. Business profile details, including name, contact information, and description, are viewable and editable.
+3. The admin configures available reservation times, defining durations or time slots.
+4. Configurable settings, including maximum daily reservations and lead time for bookings, are successfully adjusted.
+5. Changes made in the admin panel are instantly reflected in the business profile and reservation system.
+
+## Administer Hotel Reservation Settings
+1. Log into the admin panel, accessing the hotel profile management section.
+2. Review and edit hotel details, encompassing name, contact info, and a brief description.
+3. Showcase rooms in the portfolio by adding and managing comprehensive details: Room types, Descriptions, Images, Check-in/check-out times, Costs, Availability.
+5. Configure additional settings for a personalized reservation experience: Maximum stay duration, Cancellation policies, Special offers.
+6. Confirm instant reflection of changes, ensuring accuracy in the hotel profile and reservation system for users.
+
+**Acceptance Criteria:**
+1. Successfully log into the admin panel and navigate to the hotel profile management section.
+2. Review and edit hotel details, including the name, contact information, and a brief description.
+3. Showcase rooms in the portfolio with detailed information on types, descriptions, images, check-in/check-out times, costs, and availability.
+4. Configure additional reservation settings, including maximum stay duration, cancellation policies, and special offers.
+5. Confirm that changes made are instantly reflected in both the hotel profile and the reservation system, providing users with accurate and up-to-date information.
+
+   ## Service Provider Interaction Workflow on LocalConnect
+
+**Story:**
+- Log into the LocalConnect platform, accessing the service provider account dashboard.
+- Review and edit account details, including personal information, skills, services offered, and portfolio items.
+- Navigate to the incoming requests section to view user service requests.
+- Evaluate user requests and efficiently manage them by either accepting or refusing based on availability and preferences.
+- Utilize the integrated chat functionality to engage in real-time communication with users, seeking clarification or providing additional information.
+- Confirm accepted requests, ensuring that users receive timely updates on the status of their reservations or service requests.
+- Regularly update the portfolio with new work, certifications, and client testimonials to showcase skills and build user confidence.
+
+**Acceptance Criteria:**
+1. Successfully log into the LocalConnect platform and access the service provider account dashboard.
+2. Edit and update account details, including personal information, skills, services offered, and portfolio items.
+3. Navigate to the incoming requests section to view user service requests.
+4. Effectively manage requests by accepting or refusing based on availability and preferences.
+5. Engage in real-time communication with users through the integrated chat functionality.
+6. Ensure that users receive prompt updates on the status of their reservations or service requests.
+7. Update the portfolio with new work, certifications, and client testimonials for continuous profile enhancement.
+
+
+
 
 
 
